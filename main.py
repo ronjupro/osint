@@ -2,6 +2,7 @@
 import os
 import logging
 import sqlite3
+import imghdr
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
